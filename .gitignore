@@ -1,0 +1,10 @@
+# macos
+.DS_Store
+
+# linux
+*~
+
+*.json
+*.csv
+*.tsv
+*.pdf
