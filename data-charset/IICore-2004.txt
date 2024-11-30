@@ -1,4 +1,4 @@
-# 国际表意文字核心（International Ideographs Core, 简称IICore）
+# 国际表意文字核心（International Ideographs Core，简称IICore）
 # 汉字共9810个
 # 汇集CJKV约一万常用汉字，2003年提出并在2004年通过
 # 位于扩展区A的汉字共42字：㓤㕷㖡㖭㖿㗎㗳㗾㥠㧟㧸㧾㨘㩒㩧㬹㭎㷧㷫㹴㻐䁥䁪䂻䃟䄷䓪䘆䜣䟴䢵䢼䣅䣓䧑䨒䪸䱽䲁䲅䲳䴈
