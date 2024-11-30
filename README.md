@@ -1,8 +1,12 @@
 # 常见汉字字表和字符集
 
-本仓库仅梳理常见的汉字字表和字符集（汉字来自CJKV），以纯文本方式展示，格式如下：
+![](https://img.shields.io/badge/%E6%B1%89%E5%AD%97_hanzi-005AF0?style=for-the-badge)
 
-`file.txt`文件格式（`UTF-8`格式编码）：
+本仓库仅梳理常见的汉字字表和字符集（汉字来自CJKV）
+
+## 说明
+
+数据以纯文本方式展示，`file.txt`文件格式（`UTF-8`格式编码）如下：
 
 ```plaintext
 # 注释：字表名
@@ -14,6 +18,10 @@
 简〔繁〕
 
 ```
+
+## 相关资料
+
+- 字表的PDF文档汇集参见: [:link: hantang/hanzi-docs](https://github.com/hantang/hanzi-docs)
 
 ## 常用字字表
 
