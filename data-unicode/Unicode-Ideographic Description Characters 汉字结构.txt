@@ -1,0 +1,19 @@
+# Unicode 汉字结构（Ideographic Description Characters）
+# 字符共16个（编码范围0x2FF0-0x2FFF）
+
+⿰
+⿱
+⿲
+⿳
+⿴
+⿵
+⿶
+⿷
+⿸
+⿹
+⿺
+⿻
+⿼
+⿽
+⿾
+⿿
