@@ -1,6 +1,12 @@
 # 《常用國字標準字體表》
 # 汉字共4808个
+#
 # 民國71年9月1日教育部公告的「常用國字標準字體表」所收錄之常用字
+# https://language.moe.gov.tw/001/Upload/Files/site_content/download/mandr/教育部4808個常用字說明.pdf
+# 國字標準字體教師手冊 https://language.moe.gov.tw/001/Upload/files/SITE_CONTENT/M0001/STD/c4.htm
+#
+# 更新：
+# - 2025/4: 甲表序號A01266，彝(U+5F5D)->彞(U+5F5E)
 
 一
 丁
@@ -1267,7 +1273,7 @@
 彎
 彗
 彙
-彝
+彞
 彤
 形
 彥
