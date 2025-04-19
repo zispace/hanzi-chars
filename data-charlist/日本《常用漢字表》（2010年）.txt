@@ -1,5 +1,17 @@
 # 常用漢字表（平成22年11月30日内閣告示）2010年版
 # 汉字共2136个
+# 
+# 说明：
+# 字形问题：“𠮟塡剝頰”/“叱填剥頬”，这里采用前者，并用﹝﹞补充后者。
+#
+# 相关资料：
+# 日本文化厅<https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/pdf/joyokanjihyo_20101130.pdf>采用“剝𠮟塡頰”，不过文件中说明允许手写体和印刷体差异。
+# <https://ja.wiktionary.org/wiki/付録:常用漢字の一覧> 中采用“剥叱填頬”
+# <https://joyokanji.info/list.html?> 标注了其中3个“塡(填)剝(剥)頰(頬)”，另一个仅采用“叱”
+# <https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/shoiinkai/iinkai_17/gijishidai.html>
+#
+# 更新
+# - 2025/4/19: 使用﹝﹞补充“叱填剥頬”
 
 亜
 哀
@@ -830,7 +842,7 @@
 識
 軸
 七
-𠮟
+𠮟﹝叱﹞
 失
 室
 疾
@@ -1479,7 +1491,7 @@
 展
 添
 転
-塡
+塡﹝填﹞
 田
 伝
 殿
@@ -1635,7 +1647,7 @@
 拍
 泊
 迫
-剝
+剝﹝剥﹞
 舶
 博
 薄
@@ -1874,7 +1886,7 @@
 暴
 膨
 謀
-頰
+頰﹝頬﹞
 北
 木
 朴
