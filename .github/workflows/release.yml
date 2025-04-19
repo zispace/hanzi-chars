@@ -1,0 +1,56 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "*"
+  #   branches:
+  #     - main
+  # schedule:
+  #   - cron: '*/20 * * * *'
+  #   - cron: '0 4,12 * * 1,4'
+
+jobs:
+  process:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    env:
+      USER: zispace
+      SRC_REPO: utils
+      SRC_DIR: src
+      REL_DIR: release
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout src repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.USER }}/${{ env.SRC_REPO }}
+          token: ${{ secrets.GH_TOKEN }}
+          path: ${{ env.SRC_DIR }}
+
+      - name: Set up Python 3
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Run scripts
+        # if: github.event.schedule == ''
+        run: |
+          bash ${{ env.SRC_DIR }}/run-export-chars.sh \
+            ${{ env.SRC_DIR }} ${{ env.REL_DIR }} \
+            data-charlist,data-charset
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref_type == 'tag'
+        with:
+          files: |
+            ${{ env.REL_DIR }}/*.zip
+
+      - name: Upload built artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: ${{ env.REL_DIR }}/*.zip

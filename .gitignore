@@ -8,5 +8,8 @@
 *.csv
 *.tsv
 *.pdf
+*.zip
 
 temp/
+release/
+src/
