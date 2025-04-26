@@ -1,14 +1,9 @@
-name: release
+name: Release
 
 on:
   push:
     tags:
       - "*"
-  #   branches:
-  #     - main
-  # schedule:
-  #   - cron: '*/20 * * * *'
-  #   - cron: '0 4,12 * * 1,4'
 
 jobs:
   process:
@@ -17,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       USER: zispace
-      SRC_REPO: utils
+      SRC_REPO: scripts
       SRC_DIR: src
-      REL_DIR: release
+      OUT_DIR: release
 
     steps:
       - uses: actions/checkout@v4
@@ -28,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ env.USER }}/${{ env.SRC_REPO }}
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }}
           path: ${{ env.SRC_DIR }}
 
       - name: Set up Python 3
@@ -40,7 +35,7 @@ jobs:
         # if: github.event.schedule == ''
         run: |
           bash ${{ env.SRC_DIR }}/run-export-chars.sh \
-            ${{ env.SRC_DIR }} ${{ env.REL_DIR }} \
+            ${{ env.SRC_DIR }} ${{ env.OUT_DIR }} \
             data-charlist,data-charset
 
       - name: Release
@@ -48,9 +43,9 @@ jobs:
         if: github.ref_type == 'tag'
         with:
           files: |
-            ${{ env.REL_DIR }}/*.zip
+            ${{ env.OUT_DIR }}/*.zip
 
       - name: Upload built artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ${{ env.REL_DIR }}/*.zip
+          path: ${{ env.OUT_DIR }}/*.zip
