@@ -1,5 +1,6 @@
 # Unicode 扩展C（CJK Unified Ideographs Extension C）
-# 汉字共4154个（编码范围0x2A700-0x2B739）
+# 汉字共4160个（编码范围0x2A700-0x2B73F）
+# Unicode 17.0补增“𫜺～𫜿”6字
 
 𪜀
 𪜁
@@ -4155,3 +4156,9 @@
 𫜷
 𫜸
 𫜹
+𫜺
+𫜻
+𫜼
+𫜽
+𫜾
+𫜿
