@@ -42,7 +42,10 @@
 
 ```
 
-如需读取字表，通常仅需忽略#开头的行和空行，读取每行第一个字符。
+如需使用字表，优先考虑使用发布版本，[release/hanzi-chars-text.zip
+](https://github.com/zispace/hanzi-chars/releases/)，每行一字。
+
+如果使用仓库中文件，通常仅需忽略#开头的行和空行，读取每行第一个字符。
 
 一般地，如下用括号符号区分不同字形：
 - 【】表示新字形或简化字；
@@ -53,8 +56,10 @@
 
 ## 相关资料
 
-- 字表的PDF文档汇集参见：[:link: zispace/hanzi-docs](https://github.com/zispace/hanzi-docs)
 - 更多字表参见：[:link: zispace/hanzi-chars-ext](https://github.com/zispace/hanzi-chars-ext)
+- 汉字的字频、词频表参见: [:link: zispace/hanzi-freq](https://github.com/zispace/hanzi-freq)
+- 汉语常用词表参见: [:link: zispace/hanzi-words](https://github.com/zispace/hanzi-words)
+- 字表的PDF文档汇集参见：[:link: zispace/hanzi-docs](https://github.com/zispace/hanzi-docs)
 
 ## 常用字字表
 
@@ -114,7 +119,7 @@
 
 ## 字符集
 
-- [x] Unicode CJK 汉字合集：103455字（包括“〇”）
+- [x] Unicode CJK 汉字合集：103455字（包括“〇”）【更新到Unicode 17.0.0】
   - 细分：基本汉字、基本汉字扩展 A ～ J 等（Unihan）
   - 以及：〇、兼容汉字、汉字部首、注音、笔画等
 - [x] GB/T 2312-1980 “国标码”（GB0）：6763字
@@ -151,3 +156,7 @@
 - [ ] 臺灣《罕用國字標準字體表》「丙表」（1983年/民國七十二年）：共收罕用字18388字。
 - [ ] 臺灣《異體國字字表》「丁表」/原異體字表（1984年/民國七十三年）：共收異體18588字，補遺22字。
 - [ ] 臺灣《新增正字表》「N表」：編輯《異體字字典》時，新增錄之正字
+
+> [!NOTE]
+>
+> 可用: [TraditionalChinese/TW-ABCN](https://github.com/TraditionalChinese/TW-ABCN)
