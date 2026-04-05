@@ -1,5 +1,7 @@
-# Unicode 兼容扩展（CJK Compatibility Ideographs Supplement）
+# Unicode 兼容扩展/中日韩兼容表意文字补充（CJK Compatibility Ideographs Supplement）
 # 汉字共542个（编码范围0x2F800-0x2FA1D，FA6E、FA6F 是空码位）
+# https://www.unicode.org/charts/nameslist/n_2F800.html
+# 版本：Unicode 3.1
 
 㒞
 冗

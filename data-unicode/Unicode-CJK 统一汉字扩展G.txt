@@ -1,5 +1,7 @@
 # Unicode 扩展G（CJK Unified Ideographs Extension G）
 # 汉字共4939个（编码范围0x30000-0x3134A）
+# https://www.unicode.org/charts/PDF/U30000.pdf
+# 版本：Unicode 13.0
 
 𰀀
 𰀁

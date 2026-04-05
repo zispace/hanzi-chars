@@ -1,5 +1,10 @@
 # Unicode 汉字结构（Ideographic Description Characters）
-# 字符共16个（编码范围0x2FF0-0x2FFF）
+# 字符共16+1个（编码范围0x2FF0-0x2FFF，0x31EF）
+# 更新：Unicode 17.0新增“㇯”（0x31EF），但位于汉字笔画区。
+# https://www.unicode.org/charts/PDF/U2FF0.pdf
+# https://www.unicode.org/charts/nameslist/n_2FF0.html
+# https://www.unicode.org/charts/nameslist/n_31C0.html
+# 版本：Unicode 3.0，15.1
 
 ⿰
 ⿱
@@ -17,3 +22,4 @@
 ⿽
 ⿾
 ⿿
+㇯

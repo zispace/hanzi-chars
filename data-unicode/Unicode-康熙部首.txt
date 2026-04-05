@@ -1,5 +1,8 @@
 # Unicode 康熙部首（Kangxi Radicals）
 # 字符共214个（编码范围0x2F00-0x2FD5）
+# https://www.unicode.org/charts/nameslist/n_2F00.html
+# 版本：Unicode 3.0
+# 仅限于表示部首，实际每个字符在统一汉字区都有对应汉字。
 
 ⼀
 ⼁

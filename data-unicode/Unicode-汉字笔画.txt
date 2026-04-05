@@ -1,5 +1,9 @@
 # Unicode 汉字笔画（CJK Strokes）
-# 字符共36个（编码范围0x31C0-0x31E3）
+# 字符共38个（编码范围0x31C0-0x31E5）
+# https://www.unicode.org/charts/nameslist/n_31C0.html
+# https://www.unicode.org/charts/PDF/U31C0.pdf
+# 更新：Unicode 17.0新增“㇤㇥”
+# 版本：Unicode 4.1～17.0
 
 ㇀
 ㇁
@@ -37,3 +41,5 @@
 ㇡
 ㇢
 ㇣
+㇤
+㇥

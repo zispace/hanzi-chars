@@ -1,5 +1,12 @@
 # Unicode 扩展I（CJK Unified Ideographs Extension I）
 # 汉字共622个（编码范围0x2EBF0-0x2EE5D）
+# https://www.unicode.org/charts/PDF/U2EBF0.pdf
+# 版本：Unicode 15.1
+# 全部来源GB 18030-2022 《信息技术中文编码字符集》第1 号修改单中的“公安人口信息专用字库补充汉字”
+#
+# 备注，争议字符（因地区字体标准差异导致字形相近）
+# U+2ED9D 𮶝，U+8286芆
+# U+2EDE0 𮷠，U+8FF3迳
 
 𮯰
 𮯱

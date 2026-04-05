@@ -1,5 +1,7 @@
 # Unicode 汉语注音（Bopomofo）
 # 字符共43个（编码范围0x3105-0x312F）
+# https://www.unicode.org/charts/nameslist/n_3100.html
+# 其中：“ㄅ～ㄩ”用于普通话注音，“ㄪㄫㄬ”可用于方言，“ㄭㄮㄯ”用于其他情况。
 
 ㄅ
 ㄆ

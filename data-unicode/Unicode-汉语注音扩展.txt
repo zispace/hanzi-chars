@@ -1,5 +1,6 @@
 # Unicode 注音扩展（Bopomofo Extended）
 # 共32字（编码范围0x31A0-0x31BF）
+# https://www.unicode.org/charts/nameslist/n_31A0.html
 
 ㆠ
 ㆡ

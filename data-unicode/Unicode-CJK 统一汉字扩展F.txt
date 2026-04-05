@@ -1,5 +1,10 @@
 # Unicode 扩展F（CJK Unified Ideographs Extension F）
 # 汉字共7473个（编码范围0x2CEB0-0x2EBE0）
+# https://www.unicode.org/charts/PDF/U2CEB0.pdf
+# 版本：Unicode 10.0
+#
+# 备注，重复定义字符
+# U+2DAA2 𭪢 = U+2C0C4 𬃄 （扩展E）
 
 𬺰
 𬺱

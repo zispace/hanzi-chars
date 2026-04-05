@@ -1,6 +1,11 @@
 # Unicode 扩展C（CJK Unified Ideographs Extension C）
 # 汉字共4160个（编码范围0x2A700-0x2B73F）
 # Unicode 17.0补增“𫜺～𫜿”6字
+# https://www.unicode.org/charts/PDF/U2A700.pdf
+# 版本：Unicode 5.2，14.0，15.0，17.0
+#
+# 备注，错误定义字符
+# U+2A708 𪜈：不是汉字，来自日语片假名“トモ”的合字。
 
 𪜀
 𪜁

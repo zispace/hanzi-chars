@@ -1,11 +1,9 @@
-# Unicode 基本汉字（CJK Unified Ideographs）
+# Unicode 统一汉字/中日韩统一表意文字基本区（CJK Unified Ideographs）
 # 汉字共20992个
 # 其中：
-# - 基本汉字（“一～龥”编码范围0x4E00-0x9FA5，共20902字）
-# - 基本汉字补充（“龦～鿿”编码范围0x9FA6-0x9FFF，共90字）
-#
-# 更新
-# - 2025/4/19: 修正部分字序错误
+# - 统一汉字基本区（“一～龥”编码范围0x4E00-0x9FA5，共20902字，Unicode 1.0.1制定）
+# - 统一汉字补充（“龦～鿿”编码范围0x9FA6-0x9FFF，共90字，从Unicode 4.1～Unicode 14.0逐步添加）
+# https://www.unicode.org/charts/PDF/U4E00.pdf
 
 一
 丁

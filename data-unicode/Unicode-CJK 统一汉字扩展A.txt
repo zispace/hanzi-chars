@@ -1,5 +1,11 @@
 # Unicode 扩展A（CJK Unified Ideographs Extension A）
 # 汉字共6592个（编码范围0x3400-0x4DBF）
+# https://www.unicode.org/charts/PDF/U3400.pdf
+# 版本：Unicode 3.0，13.0
+#
+# 备注，重复定义字符（都在扩展A）
+# U+439B 䎛 = U+3588 㖈
+# U+39B3 㦳 = U+363D 㘽
 
 㐀
 㐁

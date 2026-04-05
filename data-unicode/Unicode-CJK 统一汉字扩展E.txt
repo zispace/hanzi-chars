@@ -1,6 +1,8 @@
 # Unicode 扩展E（CJK Unified Ideographs Extension E）
 # 汉字共5774个（编码范围0x2B820-0x2CEAD）
 # Unicode 17.0补增“𬺢～𬺭”12字
+# https://www.unicode.org/charts/PDF/U2B820.pdf
+# 版本：Unicode 8.0，17.0
 
 𫠠
 𫠡

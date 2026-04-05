@@ -1,5 +1,7 @@
 # Unicode 扩展D（CJK Unified Ideographs Extension D）
 # 汉字共222个（编码范围0x2B740-0x2B81D）
+# https://www.unicode.org/charts/PDF/U2B740.pdf
+# 版本：Unicode 6.0
 
 𫝀
 𫝁

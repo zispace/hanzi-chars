@@ -1,6 +1,7 @@
 # Unicode 扩展J（CJK Unified Ideographs Extension J）
 # 汉字共4298个（编码范围U+323B0-U+33479）
-# Unicode 17.0新增
+# https://www.unicode.org/charts/PDF/U323B0.pdf
+# 版本：Unicode 17.0
 
 𲎰
 𲎱

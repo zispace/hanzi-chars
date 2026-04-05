@@ -1,5 +1,18 @@
 # Unicode 扩展B（CJK Unified Ideographs Extension B）
 # 汉字共42720个（编码范围0x20000-0x2A6DF）
+# https://www.unicode.org/charts/PDF/U20000.pdf
+# 版本：Unicode 3.1，13.0，14.0
+#
+# 备注，重复定义字符
+# U+34A8 㒨 = U+20457 𠑗
+# U+3DB7 㶷 = U+2420E 𤈎
+# U+8641 虁 = U+27144 𧅄
+# U+204F2 𠓲 = U+23515 𣔕
+# U+21018 𡀘 = U+2103C 𡀼
+# U+249BC 𤦼 = U+249E9 𤧩
+# U+24BD2 𤯒 = U+2A415 𪐕
+# U+26842 𦡂 = U+26866 𦡦
+# U+FA23 﨣 = U+27EAF 𧺯
 
 𠀀
 𠀁

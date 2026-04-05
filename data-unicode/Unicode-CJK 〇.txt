@@ -1,4 +1,6 @@
 # 中日韩符号和标点（CJK Symbols and Punctuation）
 # 共1字，象形字数字 0（Ideographic Number Zero 〇） U+3007
+# https://www.unicode.org/charts/nameslist/n_3000.html
+# 备注：注意区分空心圆“○”（U+25CB）、“◯”（U+25EF）
 
 〇

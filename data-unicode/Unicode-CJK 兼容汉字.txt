@@ -1,5 +1,10 @@
-# Unicode 兼容汉字（CJK Compatibility Ideographs）
+# Unicode 兼容汉字/中日韩兼容表意文字（CJK Compatibility Ideographs）
 # 汉字共472个（编码范围0xF900-0xFAD9）
+# https://www.unicode.org/charts/nameslist/n_F900.html
+# 版本：Unicode 1.0.1～6.1
+#
+# 备注：其中12个字符“﨎﨏﨑﨓﨔﨟﨡﨣﨤﨧﨨﨩”不是兼容汉字（基本汉字及扩展无对应汉字）
+# “﨣”（U+FA23）与“𧺯”（U+27EAF，来自扩展B）重复定义
 
 豈
 更

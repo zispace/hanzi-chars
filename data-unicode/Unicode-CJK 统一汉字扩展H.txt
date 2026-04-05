@@ -1,5 +1,7 @@
 # Unicode 扩展H（CJK Unified Ideographs Extension H）
 # 汉字共4192个（编码范围0x31350-0x323AF）
+# https://www.unicode.org/charts/PDF/U31350.pdf
+# 版本：Unicode 15.0
 
 𱍐
 𱍑
